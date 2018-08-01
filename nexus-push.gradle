@@ -1,0 +1,18 @@
+
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: "http://192.168.200.109:8081/nexus/content/repositories/com.kim/") {
+                authentication(userName: rootProject.ext.android.libUserName, password: rootProject.ext.android.libPassWord)
+            }
+            pom.project {
+                name 'numberMorphView4Android'
+                version '0.0.1'
+                artifactId 'kimlib'
+                groupId 'com.update'
+
+            }
+        }
+    }
+}

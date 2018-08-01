@@ -1,0 +1,31 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.eleven.lib.appupdatelibrary">
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+
+        <!--<receiver android:name=".DownloadRunnable$UninstallBroadcastReceiver" android:enabled="true">-->
+        <!--<intent-filter>-->
+        <!--<action android:name="android.intent.action.PACKAGE_ADDED"/>-->
+        <!--&lt;!&ndash; <action android:name="android.intent.action.PACKAGE_CHANGED"></action>&ndash;&gt;-->
+        <!--<action android:name="android.intent.action.PACKAGE_REMOVED"/>-->
+        <!--<action android:name="android.intent.action.PACKAGE_REPLACED"/>-->
+        <!--&lt;!&ndash; <action android:name="android.intent.action.PACKAGE_RESTARTED"></action>&ndash;&gt;-->
+        <!--&lt;!&ndash;    <action android:name="android.intent.action.PACKAGE_INSTALL"></action>&ndash;&gt;-->
+        <!--<data android:scheme="package"/>-->
+        <!--</intent-filter>-->
+        <!--</receiver>-->
+        <provider
+            android:name="com.eleven.lib.appupdatelibrary.UpdateFileProvider"
+            android:authorities="${applicationId}.fileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/new_app_file_paths" />
+        </provider>
+    </application>
+
+</manifest>

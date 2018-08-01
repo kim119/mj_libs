@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TestLib.iml" filepath="$PROJECT_DIR$/TestLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kimlibrary/kimlibrary.iml" filepath="$PROJECT_DIR$/kimlibrary/kimlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/newupdatalib/newupdatalib.iml" filepath="$PROJECT_DIR$/newupdatalib/newupdatalib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/update-app/update-app.iml" filepath="$PROJECT_DIR$/update-app/update-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vzappupdatelibrary/vzappupdatelibrary.iml" filepath="$PROJECT_DIR$/vzappupdatelibrary/vzappupdatelibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vzokhttplibrary/vzokhttplibrary.iml" filepath="$PROJECT_DIR$/vzokhttplibrary/vzokhttplibrary.iml" />
+    </modules>
+  </component>
+</project>

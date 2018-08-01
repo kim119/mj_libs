@@ -1,0 +1,1 @@
+include ':app', ':kimlibrary', ':vzappupdatelibrary', ':vzokhttplibrary', ':update-app', ':newupdatalib'

@@ -1,0 +1,12 @@
+haocai=0567aa=com.bxvip.app.haocaiaa
+qtcai=qtcad1=com.bxvip.app.qtcaicad1
+dafa=dafa=com.bxvip.app.dafa01
+369cai=369cai=com.bxvip.app.bxvip369cai01
+567cai=567zy=com.bxvip.app.bx567cai1
+cpbang=cpbzy=com.bxvip.app.cpbang01
+qcai=qcaiz=com.bxvip.app.qcaizy
+1256cai=1256caizy=com.bxvip.app.yifacaizy
+ncai=ncaizy=com.bxvip.app.ncaizy
+xycai=xycaizy=com.bxvip.app.xycaizy
+ncai=ncaigw=com.bxvip.app.ncaigw
+
